@@ -92,7 +92,7 @@ void setup() {
   // initialize RGB strip
   strip.begin();           // INITIALIZE rgb strip object (REQUIRED)
   strip.show();            // Turn OFF all pixels ASAP
-  strip.setBrightness(64); // Set BRIGHTNESS (max = 255)
+  strip.setBrightness(255); // Set BRIGHTNESS (max = 255)
 }
 
 void loop() {
